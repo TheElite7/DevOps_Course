@@ -38,7 +38,7 @@
 
 ### Hypervisor Virtualization
 
-* The fundation of creation of virutal machines as guest OS that can consume hardware resources with the perception that they are the only system doing so.
+* The foundation of creation of virutal machines as guest OS that can consume hardware resources with the perception that they are the only system doing so.
 * There are two of Hypervisor,
   * Type II
     * This Hypervisors are Virtualization of a guest OS in the form of an application or process.
@@ -47,3 +47,20 @@
      * This Hypervisores, also known as bare metal. are installed on as a kernal system on the harware as a very small form factory system measuring in size of megabytes to a few hundred kilobytes.
      * This is the hypervisor of the modern day cloud.
    
+### Cloud Deployment Models
+* Four Deployment Models,
+     1. Private
+        * Virtual Private is not a private cloud
+        * The private cloud can be physically located at the organization's onsite data center or it can be hosted by a third-party provider
+        * In a private cloud, the service and infrastructure are always maintained on a private network and the hardwate and software are dedicated solely to that single organization.
+     2. Public
+        * Most common deploy on the cloud.
+        * The cloud resource are owned and operated by a third-party cloud service provider and delivered over the internet.
+        * Example: Microsoft Azure, AWS, Google, Box, Salesfore
+        * No maintenance and unlimited scallability
+     3. Community
+        * Multiple organization share the platform along with some common data or information with multiple and possibly disparate organizations that have an exclusive membership.
+        * Characteristics of public/private cloud.
+     4. Hybrid
+         * Combination of two or more clouds.
+         * Creates high elasticity
